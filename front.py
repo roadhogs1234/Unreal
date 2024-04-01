@@ -12,7 +12,7 @@ def switch_to_main_frame():
     main_frame.pack(fill="both", expand=True)
 def submit_news():
     news_input = news_entry.get("1.0", "end-1c")  # Get text from the text entry widget
-    if news_input.strip():  # Check if the input is not empty
+    if news_input.strip():  # Check if the input is no,mlkmmoklmt empty
         result = manual_testing(news_input)  # Call the manual_testing function
         messagebox.showinfo("Result", f"The news is: {result}")  # Show the result in a message box
     else:
